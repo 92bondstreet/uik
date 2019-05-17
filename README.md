@@ -2,6 +2,13 @@
 
 > Bootstrap Dashboard UI Kit 3.0 for my needs
 
+## 🏗️ Installation
+
+```sh
+sudo curl -o /usr/local/bin/uik -z /usr/local/bin/uik -l https://raw.githubusercontent.com/92bondstreet/uik/master/uik.sh
+sudo chmod a+x /usr/local/bin/uik
+```
+
 ## 🕹️ Usage
 
 ```sh
@@ -10,19 +17,6 @@
 ```
 
 ## 👩‍💻 Just tell me what to do
-
-* Update `.gitignore` file
-
-```
-# UIKit
-src/@uik
-```
-
-* Update `.env` file
-
-```
-NODE_PATH=src
-```
 
 * Create `@uik` dist files to destination directory
 
@@ -51,9 +45,15 @@ NODE_PATH=src
 ❯ cp index.scss $PROJECT/src/@uik/
 ❯ cp App.js $PROJECT/src
 ❯ cp app.module.scss $PROJECT/src
+❯ cp jsonconfig.json $PROJECT
 ```
 
+* Update `.gitignore` file
 
+```
+# UIKit
+src/@uik
+```
 
 ## 🌱 Inspiration - deep dive reading
 
