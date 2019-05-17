@@ -9,6 +9,7 @@ import {
   Uikon
 } from "@uik";
 
+import 'typeface-roboto';
 import "@uik/styles.css";
 import "@uik/index.scss";
 import styles from "./app.module.scss";

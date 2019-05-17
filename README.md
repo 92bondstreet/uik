@@ -41,6 +41,7 @@ NODE_PATH=src
 
 ```sh
 ❯ yarn add classnames
+❯ yarn add typeface-roboto
 ❯ yarn add node-sass
 ```
 
@@ -51,6 +52,8 @@ NODE_PATH=src
 ❯ cp App.js $PROJECT/src
 ❯ cp app.module.scss $PROJECT/src
 ```
+
+
 
 ## 🌱 Inspiration - deep dive reading
 
