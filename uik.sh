@@ -30,11 +30,12 @@ kit () {
 
 bootstrap () {
   echo "💻 Bootstraping..."
+  cd $PROJECT
   yarn add classnames typeface-roboto node-sass --modules-folder $PROJECT/node_modules
   curl -o $PROJECT/src/@uik/index.scss -l https://raw.githubusercontent.com/92bondstreet/uik/master/index.scss
   curl -o $PROJECT/src/App.js -l https://raw.githubusercontent.com/92bondstreet/uik/master/App.js
   curl -o $PROJECT/src/app.module.scss -l https://raw.githubusercontent.com/92bondstreet/uik/master/app.module.scss
-  curl -o $PROJECT/jsconfig.json -l https://raw.githubusercontent.com/92bondstreet/uik/master/jsonconfig.json
+  curl -o $PROJECT/jsconfig.json -l https://raw.githubusercontent.com/92bondstreet/uik/master/jsconfig.json
 }
 
 todo () {
